@@ -57,8 +57,8 @@
 				03C0DA272227C3B800A6E953 /* AppDelegate.swift */,
 				03C0DA292227C3B800A6E953 /* ViewController.swift */,
 				03C0DA2B2227C3B800A6E953 /* Main.storyboard */,
-				03C0DA2E2227C3BB00A6E953 /* Assets.xcassets */,
 				03C0DA302227C3BB00A6E953 /* LaunchScreen.storyboard */,
+				03C0DA2E2227C3BB00A6E953 /* Assets.xcassets */,
 				03C0DA332227C3BB00A6E953 /* Info.plist */,
 			);
 			path = "Vary for Traits";
