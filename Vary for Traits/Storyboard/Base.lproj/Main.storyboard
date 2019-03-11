@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,20 +15,50 @@
             <objects>
                 <viewController storyboardIdentifier="FirstViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="FirstViewController" customModule="Vary_for_Traits" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="Gradient" customModule="Vary_for_Traits" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconTech" translatesAutoresizingMaskIntoConstraints="NO" id="sJw-fk-fWN">
-                                <rect key="frame" x="0.0" y="20" width="320" height="227"/>
+                                <rect key="frame" x="0.0" y="20" width="414" height="294.33333333333331"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZf-Lh-gDj">
+                                <rect key="frame" x="8" y="322.33333333333326" width="398" height="405.66666666666674"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</string>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconTech" translatesAutoresizingMaskIntoConstraints="NO" id="gvq-c7-6A6">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="sZf-Lh-gDj" firstAttribute="top" secondItem="sJw-fk-fWN" secondAttribute="bottom" constant="8" id="6EK-W4-cqS"/>
+                            <constraint firstItem="sZf-Lh-gDj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="6kA-dt-dEc"/>
+                            <constraint firstItem="gvq-c7-6A6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="9ZQ-Ci-R73"/>
                             <constraint firstItem="sJw-fk-fWN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AbG-lT-Jpb"/>
+                            <constraint firstItem="sZf-Lh-gDj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="F2a-Vo-jUO"/>
                             <constraint firstItem="sJw-fk-fWN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Lk4-4l-doP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sZf-Lh-gDj" secondAttribute="trailing" constant="8" id="OWl-iK-Ztj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sZf-Lh-gDj" secondAttribute="bottom" constant="20" id="STV-if-Upz"/>
+                            <constraint firstItem="sZf-Lh-gDj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="VV3-yq-R8I"/>
                             <constraint firstItem="sJw-fk-fWN" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.4" id="Znk-Ap-zow"/>
+                            <constraint firstItem="gvq-c7-6A6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dCl-iO-nuT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sZf-Lh-gDj" secondAttribute="bottom" constant="8" id="dPr-JX-cjO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gvq-c7-6A6" secondAttribute="bottom" id="gOf-p6-YxI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gvq-c7-6A6" secondAttribute="trailing" id="ibu-M9-MBm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sZf-Lh-gDj" secondAttribute="trailing" constant="8" id="jH4-6a-DfS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sZf-Lh-gDj" secondAttribute="bottom" constant="8" id="jYH-lM-DFH"/>
                             <constraint firstItem="sJw-fk-fWN" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="jnf-1o-D93"/>
+                            <constraint firstItem="sZf-Lh-gDj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="lET-2v-BWY"/>
+                            <constraint firstItem="sZf-Lh-gDj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="uca-HS-Abv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sZf-Lh-gDj" secondAttribute="trailing" constant="20" id="w9C-a8-xyb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <userDefinedRuntimeAttributes>
@@ -48,12 +78,52 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="sJw-fk-fWN"/>
+                                <exclude reference="gvq-c7-6A6"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="AbG-lT-Jpb"/>
                                 <exclude reference="Lk4-4l-doP"/>
                                 <exclude reference="Znk-Ap-zow"/>
                                 <exclude reference="jnf-1o-D93"/>
+                                <exclude reference="OWl-iK-Ztj"/>
+                                <exclude reference="STV-if-Upz"/>
+                                <exclude reference="dPr-JX-cjO"/>
+                                <exclude reference="gOf-p6-YxI"/>
+                                <exclude reference="ibu-M9-MBm"/>
+                                <exclude reference="jH4-6a-DfS"/>
+                                <exclude reference="jYH-lM-DFH"/>
+                                <exclude reference="w9C-a8-xyb"/>
+                                <exclude reference="9ZQ-Ci-R73"/>
+                                <exclude reference="dCl-iO-nuT"/>
+                                <exclude reference="6EK-W4-cqS"/>
+                                <exclude reference="6kA-dt-dEc"/>
+                                <exclude reference="F2a-Vo-jUO"/>
+                                <exclude reference="VV3-yq-R8I"/>
+                                <exclude reference="lET-2v-BWY"/>
+                                <exclude reference="uca-HS-Abv"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="STV-if-Upz"/>
+                                <include reference="w9C-a8-xyb"/>
+                                <include reference="6kA-dt-dEc"/>
+                                <include reference="VV3-yq-R8I"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="gvq-c7-6A6"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="OWl-iK-Ztj"/>
+                                <include reference="dPr-JX-cjO"/>
+                                <include reference="gOf-p6-YxI"/>
+                                <include reference="ibu-M9-MBm"/>
+                                <include reference="9ZQ-Ci-R73"/>
+                                <include reference="dCl-iO-nuT"/>
+                                <include reference="lET-2v-BWY"/>
+                                <include reference="uca-HS-Abv"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -65,16 +135,20 @@
                                 <include reference="Lk4-4l-doP"/>
                                 <include reference="Znk-Ap-zow"/>
                                 <include reference="jnf-1o-D93"/>
+                                <include reference="jH4-6a-DfS"/>
+                                <include reference="jYH-lM-DFH"/>
+                                <include reference="6EK-W4-cqS"/>
+                                <include reference="F2a-Vo-jUO"/>
                             </mask>
                         </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="48.75" y="30.633802816901408"/>
+            <point key="canvasLocation" x="48.097826086956523" y="28.985507246376812"/>
         </scene>
     </scenes>
     <resources>
-        <image name="IconTech" width="682.5" height="384"/>
+        <image name="IconTech" width="1024.5" height="576"/>
     </resources>
 </document>
