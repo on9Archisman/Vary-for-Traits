@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FirstViewController.swift
 //  Vary for Traits
 //
 //  Created by Archisman Banerjee on 28/02/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController
+class FirstViewController: UIViewController
 {
     override func viewDidLoad()
     {
