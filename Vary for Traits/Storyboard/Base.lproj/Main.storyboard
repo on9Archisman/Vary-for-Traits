@@ -17,7 +17,19 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="Gradient" customModule="Vary_for_Traits" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconTech" translatesAutoresizingMaskIntoConstraints="NO" id="sJw-fk-fWN">
+                                <rect key="frame" x="0.0" y="20" width="320" height="227"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="sJw-fk-fWN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AbG-lT-Jpb"/>
+                            <constraint firstItem="sJw-fk-fWN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Lk4-4l-doP"/>
+                            <constraint firstItem="sJw-fk-fWN" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.4" id="Znk-Ap-zow"/>
+                            <constraint firstItem="sJw-fk-fWN" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="jnf-1o-D93"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="firstColor">
@@ -33,6 +45,28 @@
                                 <point key="value" x="0.0" y="0.0"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="sJw-fk-fWN"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="AbG-lT-Jpb"/>
+                                <exclude reference="Lk4-4l-doP"/>
+                                <exclude reference="Znk-Ap-zow"/>
+                                <exclude reference="jnf-1o-D93"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="sJw-fk-fWN"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="AbG-lT-Jpb"/>
+                                <include reference="Lk4-4l-doP"/>
+                                <include reference="Znk-Ap-zow"/>
+                                <include reference="jnf-1o-D93"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -40,4 +74,7 @@
             <point key="canvasLocation" x="48.75" y="30.633802816901408"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="IconTech" width="682.5" height="384"/>
+    </resources>
 </document>
