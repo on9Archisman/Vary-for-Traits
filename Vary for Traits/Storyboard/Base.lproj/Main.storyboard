@@ -99,8 +99,6 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
                                 <exclude reference="sJw-fk-fWN"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="9ZQ-Ci-R73"/>
-                                <exclude reference="dCl-iO-nuT"/>
                                 <exclude reference="293-iW-ZhE"/>
                                 <exclude reference="AbG-lT-Jpb"/>
                                 <exclude reference="Lk4-4l-doP"/>
@@ -109,6 +107,8 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
                                 <exclude reference="Znk-Ap-zow"/>
                                 <exclude reference="hEv-Dv-uh5"/>
                                 <exclude reference="jnf-1o-D93"/>
+                                <exclude reference="9ZQ-Ci-R73"/>
+                                <exclude reference="dCl-iO-nuT"/>
                                 <exclude reference="OWl-iK-Ztj"/>
                                 <exclude reference="STV-if-Upz"/>
                                 <exclude reference="YsW-a6-IZ1"/>
